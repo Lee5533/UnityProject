@@ -41,7 +41,7 @@ public class StreamVideo : MonoBehaviour
         
         while(!videoPlayer.isPrepared)
         {
-            Debug.Log("preparing video");
+            Debug.Log("preparing video!");
             yield return waitTimes;
             break;
         }
