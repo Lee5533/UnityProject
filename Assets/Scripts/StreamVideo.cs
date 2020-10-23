@@ -95,6 +95,7 @@ public class StreamVideo : MonoBehaviour
     /// </summary>
     private void OnNextVideo()
     {
+        
         videoPlayer.url = "http://stream1.visualon.com:8082/customers/migu/Lee/VRCardboard.mp4";
         videoPlayer.Prepare();
         WaitForSeconds waitTimes = new WaitForSeconds(1);
